@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@400;500;600&display=swap');
+
+:root {
+    --primary-color-nutmeg: hsl(14, 45%, 36%);
+    --primary-color-raspberry: hsl(332, 51%, 32%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-rose-white: hsl(330, 100%, 98%);
+    --color-eggshell: hsl(30, 54%, 90%);
+    --color-light-grey: hsl(30, 18%, 87%);
+    --color-wenge-brown: hsl(30, 10%, 34%);
+    --color-dark-charcoal: hsl(24, 5%, 18%);
+
+    --body-font: 'Outfit', sans-serif;
+    --title-font: 'Young Serif', serif;
+    --body-font-size: 1rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--color-eggshell);
+    color: var(--color-wenge-brown);
+    padding: 48px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+    margin: 0;
+}
+
+img {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-card {
+    border-radius: 1rem 1rem 1rem 1rem !important;
+    width: 40%;
+    margin: 0 auto;
+    background-color: var(--color-white);
+    padding: 0 2rem 2.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-top: 1.8rem;
+    letter-spacing: 0.2rem;
+    color: var(--color-dark-charcoal);
+}
+
+.prep-card {
+    background-color: var(--color-rose-white);
+    padding: 16px;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+h2, ol li::marker {
+    color: var(--primary-color-raspberry);
+}
+
+li {
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+ol li {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--color-light-grey);
+}
+
+td:nth-child(2) {
+    color: var(--primary-color-raspberry);
+    font-weight: var(--font-semi-bold);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--color-light-grey);
+    margin: 2rem 0;
+}
+
+strong {
+    font-weight: var(--font-semi-bold);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: var(--primary-color-raspberry);
+}
+
+
+@media only screen and (max-width: 375px) {
+  body {
+      padding: 0;
+      margin: 0;
+      background-color: var(--color-white);
+  }
+img {
+  padding-top: 0;
+}
+  article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-card {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      box-shadow: none;
+      border-radius: 0 !important;
+  }
+  .image-container {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  img {
+    margin-top: 0;
+    border-radius: 0 !important;
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+      padding: 0;
+      background-color: var(--color-white);
+  }
+  .hero-card {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      box-shadow: none;
+      border-radius: 0;
+      border-radius: 0 !important;
+  }
+
+  article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .image-container {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  img {
+    margin-top: 0;
+    border-radius: 0 !important;
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023) {
+  .hero-card {
+      max-width: 75%;
+      border-radius: 0 !important;
+
+  }
+  .image-container {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  img {
+      width: 100%;
+      margin-top: 0;
+      border-radius: 0 !important;
+  }
+}
+
+article {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
