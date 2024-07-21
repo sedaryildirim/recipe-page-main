@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="./assets/resources/images/200w.gif" alt="Logo">
+    <img src="./assets/images/200w.gif" alt="Logo">
   </a>
   <br />
   <br />
@@ -53,8 +53,8 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 <div align="center">
 
-![Mobile](./assets/resources/images/mobile.png)
-![Desktop](./assets/resources/images/desktop.png)
+![Mobile](./assets/images/mobile.png)
+![Desktop](./assets/images/desktop.png)
 </div>
 
 ### Links
