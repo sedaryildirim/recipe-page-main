@@ -21,9 +21,6 @@
 This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
   <p align="center">   
-<br />
-    <br />
-    <br />
     <a href="https://sedaryildirim.github.io/recipe-page-main/">View Site</a>
     ·
     <a href="https://github.com/sedaryildirim/recipe-page-main/issues">Report Bug</a>
@@ -32,24 +29,7 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
   </p>
 </div>
 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
-## Overview
-
-### Screenshot
+## Screenshots
 
 <div align="center">
 
@@ -57,28 +37,13 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 ![Desktop](./assets/images/desktop.png)
 </div>
 
-### Links
-
-- Solution URL: [Add solution URL here](https://github.com/sedaryildirim/recipe-page-main)
-- Live Site URL: [Add live site URL here](https://sedaryildirim.github.io/recipe-page-main/)
-
-## My process
-
-### Built with
+## Built with
 
 - HTML
 - CSS
 - Flexbox
 
-### What I learned
-
-
-
-### Continued development
-
-
-
-### Useful resources
+## Useful resources
 
 - [Mockup Generator](https://mockuphone.com/) - Creating mockups for your project
 
@@ -86,10 +51,6 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 - Github - [Sedar Yildirim](https://github.com/sedaryildirim)
 - Frontend Mentor - [@sedaryildirim](https://www.frontendmentor.io/profile/sedaryildirim)
-
-## Acknowledgments
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
