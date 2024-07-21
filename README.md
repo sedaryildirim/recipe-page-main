@@ -1,8 +1,3 @@
-
-<!-- UPDATE ALL LINKS WITH PROJECT SPECIFIC URLS  -->
-<!-- UPDATE SS AND LOGO -->
-<!-- UPDATE TITLES -->
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
     <img src="./assets/images/200w.gif" alt="Logo">
